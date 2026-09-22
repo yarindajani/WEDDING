@@ -167,7 +167,7 @@ section.details{padding:50px 26px!important;background:#fffefa}.painted-date{min
 /* A real full-screen backdrop avoids mobile video/transform compositing gaps. */
 html.cover-active,body.cover-active{overflow:hidden;overscroll-behavior:none}
 .cover.bloom-cover{position:fixed;inset:0;width:100%;max-width:none;height:100%;height:var(--opening-height,100dvh);transform:none;perspective:none;box-shadow:none;overflow:hidden;background:#d5cdc2;display:grid;place-items:center;padding:0;isolation:isolate}
-.opening-stage{position:relative;height:100%;width:min(100%,56.25vh);width:min(100%,calc(var(--opening-height,100dvh) * .5625));overflow:hidden;background:#d5cdc2}
+.opening-stage{position:relative;height:100%;width:min(100%,56.25vh);width:min(100vw,calc(var(--opening-height,100dvh) * .5625));overflow:hidden;background:#d5cdc2}
 .bloom-cover #opening-video{width:100%;height:100%;object-fit:cover;transform:none}
 .cover.bloom-cover.open{opacity:0;visibility:hidden;box-shadow:none;pointer-events:none}
 </style>
